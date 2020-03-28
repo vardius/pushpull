@@ -1,7 +1,10 @@
 /*
 Package proto contains protocol buffers for gRPC pushpull event ingestion and delivery system.
+
 # Using gRPC client
+
 ## Push example:
+
 	package main
 
 	import (
@@ -42,7 +45,9 @@ Package proto contains protocol buffers for gRPC pushpull event ingestion and de
 			Payload: []byte("Hello you!"),
 		})
 	}
+	
 ## Pull example:
+
 	package main
 
 	import (
