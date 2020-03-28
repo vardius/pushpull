@@ -12,7 +12,7 @@
 
 pushpull - gRPC event-oriented middleware on top of [worker-pool](https://github.com/vardius/worker-pool), event ingestion and delivery system.
 
-See also [pubsub](https://github.com/vardius/pubsub).
+[pushpull](https://github.com/vardius/pushpull) allows you to push event to queue that later can be pulled by one of clients pulling from that queue. See also [pubsub](https://github.com/vardius/pubsub).
 
 <details>
   <summary>Table of Contents</summary>
