@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "pushpull.grpc.pushpull";
+option java_outer_classname = "PushPullProto";
+
+package proto;
+
+import "google/protobuf/empty.proto";
+
+// PushPull handles event ingestion and delivery system
+service PushPull {
+    rpc Push (PushRequest) returns (google.protobuf.Empty);
+    rpc Pull (PullRequest) returns (stream PullResponse); // disconnect will stop listing for new events
+}
+
+// PushRequest is passed when pushing to the queue
+message PushRequest {
+    string topic = 1;
+    bytes payload = 2;
+}
+
+// PullRequest is passed when listing for new event in queue
+message PullRequest {
+    string topic = 1;
+}
+
+// PullResponse object
+message PullResponse {
+    bytes payload = 1;
+}
