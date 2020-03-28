@@ -1,6 +1,6 @@
 # pushpull
 
-[![](https://godoc.org/github.com/vardius/pushpull/proto?status.svg)](http://godoc.org/github.com/vardius/pushpull/proto)
+[![](https://godoc.org/github.com/vardius/pushpull/proto?status.svg)](https://pkg.go.dev/github.com/vardius/pushpull/proto)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/vardius/pushpull/blob/master/LICENSE.md)
 
 Package proto contains protocol buffer code to populate
