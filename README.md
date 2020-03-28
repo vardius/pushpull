@@ -57,7 +57,7 @@ Use as base image in DockerFile:
 FROM vardius/pushpull:latest
 ```
 
-## [Github Package Registry](https://github.com/vardius/pushpull/packages/108226)
+## [Github Package Registry](https://github.com/vardius/pushpull/packages/164794)
 
 Pull image from the command line:
 ```bash
